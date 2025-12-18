@@ -1,0 +1,61 @@
+{
+  "@@locale": "ja",
+  "appTitle": "言霊レーダー",
+  "welcomeMessage": "ようこそ\n言霊レーダーへ",
+  "termsDescription": "はじめる前に、以下の内容をご確認ください。",
+  "termsTitle": "【利用規約とプライバシーポリシー】",
+  "termsContent": "1. 位置情報の利用について\n本アプリは、あなたの周辺にある「言霊」を表示するために位置情報を利用します。プライバシー保護のため、表示位置はランダムにずらされます。\n\n2. 禁止事項\n誹謗中傷、公序良俗に反する投稿、個人情報の投稿は禁止されています。\n\n3. AIアバターフィルター\n顔写真のプライバシー保護のため、AIフィルターの使用を推奨します。\n\n4. 沈黙のチャット\n安全のため、マッチング直後はスタンプのみ送信可能です。\n\n(以下省略...)",
+  "agreeAndStart": "規約に同意してはじめる",
+  "profile": "PROFILE",
+  "photos": "PHOTOS",
+  "aiAvatarFilter": "サイバーフィルター (身バレ防止)",
+  "aiAvatarFilterSub": "写真をベースに、クールな電脳風の色調補正をかけます。",
+  "aboutMe": "ABOUT ME",
+  "nickname": "ニックネーム",
+  "bio": "自己紹介",
+  "privacyZone": "プライバシーエリア (自宅周辺を隠す)",
+  "saveProfile": "プロフィールを保存",
+  "settings": "設定",
+  "language": "言語設定",
+  "kotodama": "KOTODAMA",
+  "all": "すべて",
+  "love": "恋愛",
+  "friend": "友達",
+  "work": "仕事",
+  "mystery": "謎",
+  "shout": "叫び",
+  "addKotodama": "言霊を刻む",
+  "inputThought": "想いを入力...",
+  "premiumPost": "プレミアム投稿 (Rainbow)",
+  "standsOut": "地図上で目立ちます",
+  "cancel": "やめる",
+  "unleash": "解き放つ",
+  "aiSentimentAnalysis": "AIで感情分析して色を決める",
+  "aiAnalysisResult": "AIが感情を読み取りました！",
+  "postedBy": "POSTED BY",
+  "likes": "いいね",
+  "wantToTalk": "話してみたい",
+  "report": "通報",
+  "blockUser": "このユーザーをブロック",
+  "reported": "報告しました",
+  "blocked": "ユーザーをブロックしました",
+  "resonanceWith": "{peerNickname} との共鳴",
+  "@resonanceWith": {
+    "placeholders": {
+      "peerNickname": {}
+    }
+  },
+  "letsExchangeStamps": "🔒 スタンプを送り合って波長を合わせましょう",
+  "inputMessage": "言葉を紡ぐ...",
+  "ngWordError": "その言葉は投稿できません。ポジティブな言霊を！",
+  "kotodamaUnleashed": "言霊を解き放ちました...",
+  "nearbyKotodama": "近くに切ない言霊が落ちています...",
+  "aiChecking": "AIが画像をチェック中...",
+  "unsafeImage": "不適切な画像が含まれている可能性があります",
+  "accountLinkSim": "{provider} アカウントと連携しました (シミュレーション)",
+  "@accountLinkSim": {
+    "placeholders": {
+      "provider": {}
+    }
+  }
+}

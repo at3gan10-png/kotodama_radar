@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "532834862834",
+    "project_id": "lien-fd159",
+    "storage_bucket": "lien-fd159.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:532834862834:android:98f390f01046ad8212326b",
+        "android_client_info": {
+          "package_name": "com.example.kotodama_radar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdqE_8T_K90TKrrGAd0gSTkDyZyqCLxO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

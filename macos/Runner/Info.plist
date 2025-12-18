@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>$(PRODUCT_COPYRIGHT)</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSCameraUsageDescription</key>
+    <string>言霊を現実世界に映し出すためにカメラを使用します。</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>動画撮影のためにマイクを使用します。</string>
+    <key>NSMotionUsageDescription</key>
+    <string>スマホの動きに合わせて星を動かすために使用します。</string>
+	<key>NSMicrophoneUsageDescription</key>
+    <string>言霊（声）を録音するためにマイクを使用します。</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>現在地周辺の「星（言霊）」をマップに表示し、他のユーザーとのすれ違い判定を行うために使用します。</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>アプリを閉じている間もすれ違いを検知し、近くに星があることを通知するために使用します。</string>
+	<key>NSCameraUsageDescription</key>
+	<string>ARモードで現実空間に浮かぶ星を探したり、プロフィール写真を撮影するために使用します。</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>あなたの声を録音し、「ボイス・スター」として地図上に投稿するために使用します。</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>プロフィール写真や、投稿する画像を選択するために使用します。</string>
+</dict>
+</plist>

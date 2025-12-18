@@ -1,0 +1,72 @@
+name: kotodama_radar
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # アイコン・フォント
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+
+  # Firebase
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.3.1
+  cloud_firestore: ^5.4.4
+  firebase_storage: ^12.3.2
+
+  # 地図・位置情報
+  google_maps_flutter: ^2.10.0
+  geolocator: ^13.0.1
+
+  # その他機能
+  image_picker: ^1.0.4
+  shared_preferences: ^2.2.2  # 設定保存用
+  
+  # ★ここを修正しました！
+  intl: ^0.20.0               # 日付フォーマット用 (最新版に対応)
+
+  # 多言語対応の基本パッケージ
+  flutter_localizations:
+    sdk: flutter
+
+  firebase_messaging: ^15.2.10  # 追加: 通知用
+  flutter_local_notifications: ^16.3.0 # 追加: アプリ起動中の通知表示用
+  camera: ^0.10.5+9       # AR用（カメラ）
+  permission_handler: ^11.3.0 # 権限管理
+  audioplayers: ^5.2.1    # 3Dサウンド用
+  sensors_plus: ^4.0.2    # ジャイロセンサー（ARの動き用）
+  flutter_compass: ^0.8.0 # 追加: 方角を知るためのコンパス
+  vector_math: ^2.1.4     # 追加: AR計算用
+  signature: ^5.4.0       # 手書き用
+  record: ^4.4.4  # ^ を付けずにバージョンを固定します
+  path_provider: ^2.1.2   # ファイル保存用
+  purchases_flutter: ^9.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+
+  # 画像を使用するための設定
+  assets:
+    - assets/splash.png
+
+# --- ここから下がスプラッシュ画面の設定 ---
+flutter_native_splash:
+  color: "#0e1626"
+  image: assets/splash.png
+  android_12:
+    image: assets/splash.png
+    color: "#0e1626"
+  color_dark: "#0e1626"
+  image_dark: assets/splash.png
